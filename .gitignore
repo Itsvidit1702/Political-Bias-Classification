@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+
+# Hugging Face / downloaded dataset
+dataset/
+.cache/
+*.parquet
+
+# Generated CSV datasets
+train.csv
+valid.csv
+test.csv
+
+# IDE
+.vscode/
+
+# OS
+.DS_Store
